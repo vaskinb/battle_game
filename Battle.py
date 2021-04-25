@@ -62,7 +62,7 @@ class Battle:
 
             move_id = 0
             # Повышен шанс исцеления если здоровье компютера меньше 35
-            if self.__current_user.get_name == "Computer" and self.__current_user.get_health < Constants.PlaySettings.POOR_HP:
+            if self.__current_user.get_name == "Компьютер" and self.__current_user.get_health < Constants.PlaySettings.POOR_HP:
                 move_id = random.randint(1, 4)
                 if move_id > 3:
                     move_id = 3

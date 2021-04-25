@@ -20,4 +20,3 @@ class Player(Moves):
 
     def get_name(self):
         return self.__name
-
